@@ -19,7 +19,7 @@ function App() {
     console.log("useEffect is being called");  // Added log
     const start = Math.floor(Date.now() / 1000) - 30 * 24 * 60 * 60; 
     const end = Math.floor(Date.now() / 1000); 
-    const url = `https://209.38.229.113:3003/balances/range?start=${start}&end=${end}`;
+    const url = `https://209.38.229.113.nip.io:3003/balances/range?start=${start}&end=${end}`;
     console.log("URL to fetch", url);  // Added log
     axios.get(url)
       .then(response => {
