@@ -7,11 +7,13 @@ const theme = extendTheme({
   styles: {
     global: {
       body: {
-        backgroundColor: "#101124", // Replace with your desired background color
+        backgroundColor: "#101124", 
+        color: "#fff", 
       },
     },
   },
 });
+
 
 ReactDOM.render(
   <React.StrictMode>
