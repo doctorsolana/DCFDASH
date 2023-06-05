@@ -34,7 +34,7 @@ const PayoutCalculator: React.FC<PayoutCalculatorProps> = ({
           mx={2}
         >
           <Text fontSize="sm" color="gray.500" textAlign="center">
-            Total Made
+            Total Made (~1w)
           </Text>
           <Text fontSize="2xl" fontWeight="bold" textAlign="center">
             {totalBalance.toFixed(0)} SOL
