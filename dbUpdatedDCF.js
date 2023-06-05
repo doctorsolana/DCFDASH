@@ -6,7 +6,7 @@ const DCF_HOUSE_WALLET = new PublicKey("EWBFhigrnx6q5MMaGgxcg22dZtqTcZwiut8ZG7QC
 const DCD_FEE_WALLET = new PublicKey("9dkpTtxnsDmJRh95QhkHsAUXasQwrmX6LE4AEVSVgn3Z");
 const DCD_HOUSE_WALLET = new PublicKey("7iCme5EXAmigk84QXJmsVztdrLNxaWfq5rz85vM5utPu");
 
-const rpc = "https://rpc.helius.xyz/?api-key=d1b8ca10-0ab9-4f59-9568-18a686943a7f";
+const rpc = "https://rpc.hel686943a7f";
 
 // Initialize connection 
 const connection = new Connection(rpc);
